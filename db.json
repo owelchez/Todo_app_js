@@ -1,16 +1,24 @@
 {
   "todos": [
     {
-      "title": "Hello everyone!",
-      "id": 1
-    },
-    {
-      "id": 2,
-      "title": "Test 2"
-    },
-    {
-      "title": "Test 3",
+      "title": "Do some work",
+      "isCompleted": true,
       "id": 3
+    },
+    {
+      "title": "Eat lunch",
+      "isCompleted": true,
+      "id": 4
+    },
+    {
+      "title": "Finish all the canadian orders",
+      "isCompleted": true,
+      "id": 5
+    },
+    {
+      "title": "Do some more work",
+      "isCompleted": true,
+      "id": 6
     }
   ]
 }

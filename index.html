@@ -11,13 +11,28 @@
     <title>Coders In Hoods || Home page</title>
 </head>
 <body>
-    <div class="content_area">
-        <div class="content_area__logo">
-            <a href="https://www.youtube.com/channel/UC7NI9p0Z5CPrELOBO6qfVqw">
-                <img src="./images/logo.jpg" alt="CodersInHood Logo">
-            </a>
-        </div>
+     <h1>Todo App</h1>
+    <!-- This will be my boiler plate for todo list -->
+
+    <form id="todoForm" action="http://localhost:3000/todos" method="POST">
+        <strong>Add Todo: </strong><br>
+        <input type="text" id="textInput" name="todo" value="" placeholder="Add a task">
+        <input type="submit" id="taskButton" value="Add Task">
+    </form> 
+
+
+
+
+    <div class="todo-container">
+        <ul id="unordered-list">
+            <!-- <li>Do laundry</li>
+            <li>Drink Tea</li>
+            <li>Read one chapter from current book</li> -->  
+        </ul>
     </div>
+
+
+    
 </body>
 <script src="js/index.js"></script>
 </html>
